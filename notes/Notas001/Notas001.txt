@@ -7,3 +7,12 @@
 2		--> Ajustando o tamanho da room e ajustando a view e viewport		
 	2.1 --> Criando uma viewport e camera para o jogo								CHECK		
 	2.2 --> Ajustando as dimensões para a view ser grande e o viewport menor		CHECK	
+	
+3		--> Sistema de tiros
+	3.1 --> Importando as sprites de tiros do player								CHECK
+	3.2 --> Criando o objeto do tiro do player										CHECK
+	3.3 --> Fazendo o tiro indo para cima											CHECK
+	3.4 --> Fazendo o jogador atirar ao apertar espaço								CHECK
+	3.5 --> Dando um efeito legal para o tiro										CHECK
+		3.5.1 --> Fazendo ele nascer grande e ficar pequeno							CHECK
+	3.6 --> Deletando tiros que saem da tela										CHECK
