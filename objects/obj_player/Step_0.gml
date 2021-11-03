@@ -31,16 +31,6 @@ x += right * velocidade;
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* 
 // Movendo para esquerda
 if (keyboard_check(ord("A"))){

@@ -43,6 +43,11 @@
 	7.3 --> Destruindo o tiro ao sair da room										CHECK
 	
 8		--> Destruindo o inimigo se tomar tiro
-	8.1 --> Fazer o tiro do player destruir o inimigo que colidir com ele
+	8.1 --> Fazer o tiro do player destruir o inimigo que colidir com ele			CHECK
+	8.2 --> Fazer com que ao ser destruido o inimigo crie uma explosão				CHECK
+	
+9		--> Pequenos Ajustes 1
+	9.1	--> Fazendo os inimigos destruirem ao sair da tela
+	
 	
 	
