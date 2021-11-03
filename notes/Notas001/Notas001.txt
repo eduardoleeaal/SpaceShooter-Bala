@@ -49,6 +49,20 @@
 9				--> Pequenos Ajustes 1
 		9.1		--> Fazendo os inimigos destruirem ao sair da tela							CHECK
 		9.2		--> Melhorando o background													CHECK
+		9.3		--> Deixando o jogo mais bonito												CHECK
+		  9.3.1 --> Criar a sprite do brilo													CHECK
+		  9.3.2 --> Criar o draw event														CHECK
+		  9.3.3 --> Se desenhar																CHECK
+		  9.3.4 --> Desenhar o brilho														CHECK
+		  9.3.5 --> Criar a variavel cores													CHECK
+		  9.3.6 --> Alterar como a gpu processa a mistura de cores							CHECK
+		  9.3.7 --> Usar o lerp para suavizar a animação									CHECK
+		9.4		--> Deixando as Explosões mais bonitas										CHECK
+		  9.4.1 --> Criar o Draw Event														CHECK
+		  9.4.2 --> Se desenhar																CHECK
+		  9.4.3 --> Me desenhar um pouco maior												CHECK
+		  9.4.4 --> Alterar como a gpu processa as cores									CHECK
+		  9.4.5 --> Criar a variavel de cores												
 	
 10				--> Background
 		10.1	--> Importando a sprite														CHECK

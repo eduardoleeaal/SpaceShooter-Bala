@@ -7,4 +7,8 @@ vspeed = -10;
 // AUMENTANDO O TAMANHO DO TIRO  //
 image_xscale = 2;
 image_yscale = 2;
-alarm[0] = 2;
+//alarm[0] = 2;
+
+// Gerando as cores
+
+cores = choose(c_aqua, c_lime, c_blue, c_green, c_navy, c_olive);
