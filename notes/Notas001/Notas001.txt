@@ -21,3 +21,10 @@
 	4.1 --> Importando a sprite														CHECK
 	4.2 --> Criando o objeto														CHECK
 	4.3 --> Fazendo ele ir para baixo												CHECK
+	
+5		--> Fazendo o inimigo atirar												
+	5.1 --> Importando a sprite do tiro do inimigo									CHECK
+	5.2 --> Criar o objeto do tiro inimigo											CHECK		
+	5.3 --> Fazer o tiro ir para baixo												CHECK
+	5.4 --> Fazer ele atirar após certo tempo										CHECK
+	5.5 --> Dando efeito no tiro													
