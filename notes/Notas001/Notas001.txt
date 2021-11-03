@@ -16,3 +16,8 @@
 	3.5 --> Dando um efeito legal para o tiro										CHECK
 		3.5.1 --> Fazendo ele nascer grande e ficar pequeno							CHECK
 	3.6 --> Deletando tiros que saem da tela										CHECK
+	
+4		--> Criando o inimigo
+	4.1 --> Importando a sprite														CHECK
+	4.2 --> Criando o objeto														CHECK
+	4.3 --> Fazendo ele ir para baixo												CHECK
