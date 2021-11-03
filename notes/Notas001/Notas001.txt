@@ -27,4 +27,11 @@
 	5.2 --> Criar o objeto do tiro inimigo											CHECK		
 	5.3 --> Fazer o tiro ir para baixo												CHECK
 	5.4 --> Fazer ele atirar após certo tempo										CHECK
-	5.5 --> Dando efeito no tiro													
+	5.5 --> Dando efeito no tiro													CHECK
+	
+		[CRIANDO METODOS]
+		
+6		--> Fazendo o tiro do player acertar o inimigo
+	6.1 --> Fazer o tiro do player se destruir ao acertar o inimigo					CHECK
+	6.2 --> Criar o impacto do tiro do player
+		
