@@ -1,53 +1,58 @@
-1		--> Criando o Player
-	1.1 --> Importando a sprite do player											CHECK
-	1.2 --> Criar objeto do player													CHECK
-	1.3 --> Adicionando movimentação do player (W,A,S,D) pelo step					CHECK
-	1.4 --> Melhorando o codigo de movimentação										CHECK
+1				--> Criando o Player
+		1.1		--> Importando a sprite do player											CHECK
+		1.2		--> Criar objeto do player													CHECK
+		1.3		--> Adicionando movimentação do player (W,A,S,D) pelo step					CHECK
+		1.4		--> Melhorando o codigo de movimentação										CHECK
 	
-2		--> Ajustando o tamanho da room e ajustando a view e viewport		
-	2.1 --> Criando uma viewport e camera para o jogo								CHECK		
-	2.2 --> Ajustando as dimensões para a view ser grande e o viewport menor		CHECK	
+2				--> Ajustando o tamanho da room e ajustando a view e viewport		
+		2.1		--> Criando uma viewport e camera para o jogo								CHECK		
+		2.2		--> Ajustando as dimensões para a view ser grande e o viewport menor		CHECK	
 	
-3		--> Sistema de tiros
-	3.1 --> Importando as sprites de tiros do player								CHECK
-	3.2 --> Criando o objeto do tiro do player										CHECK
-	3.3 --> Fazendo o tiro indo para cima											CHECK
-	3.4 --> Fazendo o jogador atirar ao apertar espaço								CHECK
-	3.5 --> Dando um efeito legal para o tiro										CHECK
-		3.5.1 --> Fazendo ele nascer grande e ficar pequeno							CHECK
-	3.6 --> Deletando tiros que saem da tela										CHECK
+3				--> Sistema de tiros
+		3.1		--> Importando as sprites de tiros do player								CHECK
+		3.2		--> Criando o objeto do tiro do player										CHECK
+		3.3		--> Fazendo o tiro indo para cima											CHECK
+		3.4		--> Fazendo o jogador atirar ao apertar espaço								CHECK
+		3.5		--> Dando um efeito legal para o tiro										CHECK
+		  3.5.1	--> Fazendo ele nascer grande e ficar pequeno								CHECK
+		3.6		--> Deletando tiros que saem da tela										CHECK
 	
-4		--> Criando o inimigo
-	4.1 --> Importando a sprite														CHECK
-	4.2 --> Criando o objeto														CHECK
-	4.3 --> Fazendo ele ir para baixo												CHECK
+4				--> Criando o inimigo
+		4.1		--> Importando a sprite														CHECK
+		4.2		--> Criando o objeto														CHECK
+		4.3		--> Fazendo ele ir para baixo												CHECK
 	
-5		--> Fazendo o inimigo atirar												
-	5.1 --> Importando a sprite do tiro do inimigo									CHECK
-	5.2 --> Criar o objeto do tiro inimigo											CHECK		
-	5.3 --> Fazer o tiro ir para baixo												CHECK
-	5.4 --> Fazer ele atirar após certo tempo										CHECK
-	5.5 --> Dando efeito no tiro													CHECK
+5				--> Fazendo o inimigo atirar												
+		5.1		--> Importando a sprite do tiro do inimigo									CHECK
+		5.2		--> Criar o objeto do tiro inimigo											CHECK		
+		5.3		--> Fazer o tiro ir para baixo												CHECK
+		5.4		--> Fazer ele atirar após certo tempo										CHECK
+		5.5		--> Dando efeito no tiro													CHECK
 	
-		[CRIANDO METODOS]
+			[CRIANDO METODOS]
 		
-6		--> Fazendo o tiro do player acertar o inimigo
-	6.1 --> Fazer o tiro do player se destruir ao acertar o inimigo					CHECK
-	6.2 --> Criar o impacto do tiro do player										CHECK
-	6.3 --> Fazer o impacto do tiro desaparecer no final da animação				CHECK
-	6.4 --> Fazer o tiro não criar o impacto ao sair da room						CHECK
+6				--> Fazendo o tiro do player acertar o inimigo
+		6.1		--> Fazer o tiro do player se destruir ao acertar o inimigo					CHECK
+		6.2		--> Criar o impacto do tiro do player										CHECK
+		6.3		--> Fazer o impacto do tiro desaparecer no final da animação				CHECK
+		6.4		--> Fazer o tiro não criar o impacto ao sair da room						CHECK
 	
-7		--> Fazendo o tiro do inimigo acertar o player e ser destruido
-	7.1 --> Fazer o tiro do inimigo se destruir ao acertar o player					CHECK
-	7.2 --> Criando o impacto														CHECK
-	7.3 --> Destruindo o tiro ao sair da room										CHECK
+7				--> Fazendo o tiro do inimigo acertar o player e ser destruido
+		7.1		--> Fazer o tiro do inimigo se destruir ao acertar o player					CHECK
+		7.2		--> Criando o impacto														CHECK
+		7.3		--> Destruindo o tiro ao sair da room										CHECK
 	
-8		--> Destruindo o inimigo se tomar tiro
-	8.1 --> Fazer o tiro do player destruir o inimigo que colidir com ele			CHECK
-	8.2 --> Fazer com que ao ser destruido o inimigo crie uma explosão				CHECK
+8				--> Destruindo o inimigo se tomar tiro
+		8.1		--> Fazer o tiro do player destruir o inimigo que colidir com ele			CHECK
+		8.2		--> Fazer com que ao ser destruido o inimigo crie uma explosão				CHECK
 	
-9		--> Pequenos Ajustes 1
-	9.1	--> Fazendo os inimigos destruirem ao sair da tela
+9				--> Pequenos Ajustes 1
+		9.1		--> Fazendo os inimigos destruirem ao sair da tela							CHECK
+		9.2		--> Melhorando o background													CHECK
+	
+10				--> Background
+		10.1	--> Importando a sprite														CHECK
+		10.2	--> Colocando no jogo														CHECK
 	
 	
 	
