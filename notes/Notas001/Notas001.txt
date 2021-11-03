@@ -88,5 +88,13 @@
 		12.6	--> Indo na direção do player APENAS se ele Existir							CHECK
 		
 13				--> Criação automatica dos inimigos
+		13.1	-->	Fazer com que o obj controller crie inimigos de tempos em tempos		CHECK
 
 14				--> Criando o objeto controller do jogo
+		14.1    --> Ganhando pontos ao destruir inimigos
+
+15				--> Iniciando o Sistema de pontos
+		15.1	--> Iniciando a variavel pontos												CHECK
+		15.2	--> Ganhando pontos ao destruir inimigos									CHECK
+		15.3	--> Rodando o metodo de ganhar pontos apenas SE o obj_controller existir	CHECK
+		15.4	--> Inimigos diferentes dão quantidades de pontos diferentes				CHECK

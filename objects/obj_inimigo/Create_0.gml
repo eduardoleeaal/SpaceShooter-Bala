@@ -13,6 +13,6 @@ atirando = function(){
 	}
 }
 
-
+pontos = 10;
 // Iniciando o alarme em 2 seg
 alarm[0] = room_speed * random_range(1, 3);
