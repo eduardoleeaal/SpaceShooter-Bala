@@ -83,5 +83,10 @@
 		12.2	-->	Criar o objeto															CHECK
 		12.3	-->	Fazendo ele ser filho do tiro 1											CHECK
 		12.4	--> Iniciar indo na direção do player										CHECK
-		12.5	--> Apontando para direção do player										
-		  12.5.1-->	Fazer ela ganhar 90°
+		12.5	--> Apontando para direção do player										CHECK
+		  12.5.1-->	Fazer ela ganhar 90°													CHECK
+		12.6	--> Indo na direção do player APENAS se ele Existir							CHECK
+		
+13				--> Criação automatica dos inimigos
+
+14				--> Criando o objeto controller do jogo
