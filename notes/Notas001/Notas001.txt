@@ -33,5 +33,16 @@
 		
 6		--> Fazendo o tiro do player acertar o inimigo
 	6.1 --> Fazer o tiro do player se destruir ao acertar o inimigo					CHECK
-	6.2 --> Criar o impacto do tiro do player
-		
+	6.2 --> Criar o impacto do tiro do player										CHECK
+	6.3 --> Fazer o impacto do tiro desaparecer no final da animação				CHECK
+	6.4 --> Fazer o tiro não criar o impacto ao sair da room						CHECK
+	
+7		--> Fazendo o tiro do inimigo acertar o player e ser destruido
+	7.1 --> Fazer o tiro do inimigo se destruir ao acertar o player					CHECK
+	7.2 --> Criando o impacto														CHECK
+	7.3 --> Destruindo o tiro ao sair da room										CHECK
+	
+8		--> Destruindo o inimigo se tomar tiro
+	8.1 --> Fazer o tiro do player destruir o inimigo que colidir com ele
+	
+	
