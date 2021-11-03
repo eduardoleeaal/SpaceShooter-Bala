@@ -68,5 +68,20 @@
 		10.1	--> Importando a sprite														CHECK
 		10.2	--> Colocando no jogo														CHECK
 	
-	
-	
+11				--> Criando o segundo inimigo
+		11.1	-->	Importar sprite															CHECK
+		11.2	--> Criar o objeto															CHECK
+		11.3	-->	Fazendo o inimigo2 herdar comportamentos do inimigo1					CHECK
+		11.4	--> Checando se eu estou do lado direito ou esquerdo						CHECK
+		11.5	--> Fazendo ele mudar de direção ao chegar em um ponto Y após 1/3 da tela	CHECK
+		  11.5.1--> Fazer isso apenas 1 vez													CHECK
+		11.6	--> Fazendo o inimigo ter um tiro propio
+		  11.6.1-->	Criar a função atirando do inimigo2
+		
+12				--> Criando o tiro do inimigo2
+		12.1	--> Importar sprite															CHECK
+		12.2	-->	Criar o objeto															CHECK
+		12.3	-->	Fazendo ele ser filho do tiro 1											CHECK
+		12.4	--> Iniciar indo na direção do player										CHECK
+		12.5	--> Apontando para direção do player										
+		  12.5.1-->	Fazer ela ganhar 90°
