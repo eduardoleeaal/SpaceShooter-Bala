@@ -129,5 +129,11 @@
 		  19.6.2--> Fazendo o tiro inverter a posição horizontal
 		19.7	--> Criando o 3º Level do tiro
 		  19.7.1--> Criando o tiro 1 e o tiro 2 ao mesmo tempo
+		 19.8	--> Criando o 4° Level do tiro
+		 19.9	--> Criando o 5° Level do tiro
+		 
+20				--> Fazer o player ganhar powerup
+		20.1	--> Criando o sprite do powerup
+		20.2	--> Criando o objeto do powerup
 		
 		

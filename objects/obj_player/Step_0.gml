@@ -1,17 +1,35 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/* 
+	3 Upgrades possivels
+
+	Velocidade	-	.05		-	Limite: 10
+	Level Tiro	-	1		-	Limite: 5
+	Espera Tiro	-	10%		-	Limite: 11		
+
+*/
+
 
 
 //Melhorando o codigo de movimentação
 
-var up, down, left, right, setinha_cima, setinha_baixo;
+var up, down, left, right, setinha_cima, setinha_baixo, setinha_esquerda, setinha_direita;
 
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 
+y += (down - up) * velocidade;
+x += (right - left) * velocidade;
+
+//Criando o tiro
+atirando();
+
+
+
+						//  DEBUG  //
 // Level dos tiros
 
 show_debug_message(level_tiro);
@@ -27,12 +45,22 @@ setinha_baixo = keyboard_check_pressed(vk_down);
 if(setinha_baixo && level_tiro > 1){
 	level_tiro--;	
 }
-//Criando o tiro
-atirando();
-	
-y += (down - up) * velocidade;
-x += (right - left) * velocidade;
 
+// Fazer o tempo de tiro diminuir se eu apertar a setinha para esquerda
+setinha_esquerda = keyboard_check_pressed(vk_left);
+if(setinha_esquerda && espera_tiro >= 11.50){
+	espera_tiro *= 0.9;
+}
+// Fazer aumentar a espera do tiro apertando a setinha para direita
+setinha_direita = keyboard_check_pressed(vk_right);
+if(setinha_direita){
+	espera_tiro *= 1.1;
+}
+
+show_debug_message(espera_tiro);
+	
+
+						//  DEBUG  //
 
 /*
 y -= up * velocidade;
