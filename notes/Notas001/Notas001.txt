@@ -89,12 +89,25 @@
 		
 13				--> Criação automatica dos inimigos
 		13.1	-->	Fazer com que o obj controller crie inimigos de tempos em tempos		CHECK
+		13.2	--> Criando inimigos diferentes com base no level do jogo					CHECK
+		13.3	--> Criar ondas para inimigos
+		13.4	--> Criar ondas APENAS se todos os inimigos forem mortos
+		13.5	--> Criar a quantidade de inimigos com base no level
+		13.6	--> Impedindo que inimigos sejam criados no mesmo lugar
 
 14				--> Criando o objeto controller do jogo
-		14.1    --> Ganhando pontos ao destruir inimigos
+		14.1    --> Ganhando pontos ao destruir inimigos									CHECK
 
 15				--> Iniciando o Sistema de pontos
 		15.1	--> Iniciando a variavel pontos												CHECK
 		15.2	--> Ganhando pontos ao destruir inimigos									CHECK
 		15.3	--> Rodando o metodo de ganhar pontos apenas SE o obj_controller existir	CHECK
 		15.4	--> Inimigos diferentes dão quantidades de pontos diferentes				CHECK
+		
+16				--> Criando o Sistema de Level
+		16.1	--> Iniciando a variavel level												CHECK
+		16.2	--> Exibindo level															CHECK
+		16.3	--> Ganhando level quando chego em determinada quantidade de pontos			CHECK
+		16.4	--> Dobrando o valor do prox level sempre que eu ganhar um lvl				CHECK
+		
+		
