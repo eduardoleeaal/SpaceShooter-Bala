@@ -122,6 +122,12 @@
 		19.1	--> Importando a sprite
 		19.2	--> Criando o objeto tiro_player_2
 		19.3	--> Falar que esse tiro é filho do tiro 1
-		19.4	-->
+		19.4	-->	Ajustando os efeitos do tiro 2
+		19.5	--> Criando dois tiros por vez, 1 em cada asa
+		19.6	--> Fazer o tiro dar zigzag
+		  19.6.1--> Fazendo o tiro ganhar uma direção
+		  19.6.2--> Fazendo o tiro inverter a posição horizontal
+		19.7	--> Criando o 3º Level do tiro
+		  19.7.1--> Criando o tiro 1 e o tiro 2 ao mesmo tempo
 		
 		
