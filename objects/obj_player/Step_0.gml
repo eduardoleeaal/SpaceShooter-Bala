@@ -58,6 +58,9 @@ if(setinha_direita){
 }
 
 show_debug_message(espera_tiro);
+
+// Criando o escudo
+
 	
 
 						//  DEBUG  //

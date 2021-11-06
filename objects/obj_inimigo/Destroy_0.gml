@@ -10,3 +10,8 @@ instance_create_layer(x, y, "Inimigos", obj_explosao);
 if (instance_exists(obj_controller)){
 	obj_controller.ganha_pontos(pontos);
 }
+
+
+// Dropando o item
+
+dropa_upgrade(chance);

@@ -4,6 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
+// Chance de dropar:
+chance = 45;
+
+
 // Criando variavel de controle para saber se posso me mover
 
 posso_me_mover_lado = true;

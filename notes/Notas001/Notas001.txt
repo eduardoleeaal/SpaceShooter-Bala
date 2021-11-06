@@ -132,8 +132,24 @@
 		 19.8	--> Criando o 4° Level do tiro
 		 19.9	--> Criando o 5° Level do tiro
 		 
-20				--> Fazer o player ganhar powerup
+20				--> Powerup
 		20.1	--> Criando o sprite do powerup
 		20.2	--> Criando o objeto do powerup
+		20.3	--> Criando a chance de cada powerup
+		20.4	--> Metodo do powerup
+		20.5	--> Fazer o item colidir com o player e dar o powerup para ele
+		20.6	--> Destruir o item ao colidir com o player
+		20.7	--> Quando for destruido ele cria o impacto_tiro
+		20.8	--> Fazendo o inimigo ter uma chance de dropar o upgrade
+		20.9	--> Fazendo o upgrade se mover
+		20.10.1	--> Fazer ele mudar de cor conforme o tipo do upgrade
+		20.11	--> Impedindo que o tiro saia da tela
+		20.12	--> Fazendo o powerup sumir
+		
+21				--> Escudo do player
+		21.1	--> Importando sprite
+		21.2	--> Criando objeto
+		21.3	--> Fazendo o player criar o escuto apertando E
+		
 		
 		

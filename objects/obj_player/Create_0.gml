@@ -1,5 +1,11 @@
 /// @description Iniciando variaveis
 
+/* 
+	3 Upgrades possivels
+	Velocidade	-	.5		-	Limite: 10		- Raro			- 35%
+	Level Tiro	-	1		-	Limite: 5		- Muito Raro	- 10%
+	Espera Tiro	-	10%		-	Limite: 11		- Comum			- 55%
+*/
 
 velocidade = 5;
 
@@ -90,4 +96,26 @@ tiro4 = function(){
 		// Fazendo mudar de direção
 		direcao += 15;			
 	}	
+}
+
+// Método de upgrade
+///@method upgrade_p(chance);
+upgrade_p = function(_chance){
+	if (_chance >= 90){
+		// Aumentando o level do tiro se o level do tiro for menor doq 5
+		if(level_tiro < 5){
+			level_tiro++;
+		}
+	}
+	else
+		if(_chance >= 55){
+			if(espera_tiro >= 11.50){
+				espera_tiro *= 0.9;
+			}
+		}
+	else{
+		if(velocidade < 10){
+			velocidade += .5;
+		}
+	}
 }
