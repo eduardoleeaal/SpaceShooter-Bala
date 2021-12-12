@@ -1,8 +1,8 @@
 /// @description Iniciando o inimigo
 // You can write your code in this editor
 
-// Chance de dropar o item é : 30%
-chance = 30;
+// Chance de dropar o item é : 15%
+chance = 15;
 
 vspeed = 3;
 

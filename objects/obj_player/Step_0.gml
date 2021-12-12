@@ -14,12 +14,13 @@
 
 //Melhorando o codigo de movimentação
 
-var up, down, left, right, setinha_cima, setinha_baixo, setinha_esquerda, setinha_direita;
+var up, down, left, right, use, setinha_cima, setinha_baixo, setinha_esquerda, setinha_direita;
 
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
+use = keyboard_check_pressed(ord("E"));
 
 y += (down - up) * velocidade;
 x += (right - left) * velocidade;
@@ -61,6 +62,14 @@ show_debug_message(espera_tiro);
 
 // Criando o escudo
 
+
+
+if(use){
+	var escudo = instance_create_layer(x, y, "escudo", obj_escudo);
+	
+	//Eu sou o seu alvo
+	escudo.alvo = id;
+}
 	
 
 						//  DEBUG  //

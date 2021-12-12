@@ -111,45 +111,61 @@
 		16.4	--> Dobrando o valor do prox level sempre que eu ganhar um lvl				CHECK
 		
 17				--> Deixar o tiro do player "Automatico"
-		17.1	-->	Criando um evento para o tiro
+		17.1	-->	Criando um evento para o tiro											CHECK
 		
 18				--> Dando leveis para os tiros do player
-		18.1	--> Criando o sistema de leveis
-		18.2	--> Sistema de debug
-		18.3	--> Fazendo o player dar o 2° Tiro no lvl 2
+		18.1	--> Criando o sistema de leveis												CHECK
+		18.2	--> Sistema de debug														CHECK
+		18.3	--> Fazendo o player dar o 2° Tiro no lvl 2									CHECK
 		
 19				--> Criando o 2° Tiro do player
-		19.1	--> Importando a sprite
-		19.2	--> Criando o objeto tiro_player_2
-		19.3	--> Falar que esse tiro é filho do tiro 1
-		19.4	-->	Ajustando os efeitos do tiro 2
-		19.5	--> Criando dois tiros por vez, 1 em cada asa
-		19.6	--> Fazer o tiro dar zigzag
-		  19.6.1--> Fazendo o tiro ganhar uma direção
-		  19.6.2--> Fazendo o tiro inverter a posição horizontal
-		19.7	--> Criando o 3º Level do tiro
-		  19.7.1--> Criando o tiro 1 e o tiro 2 ao mesmo tempo
-		 19.8	--> Criando o 4° Level do tiro
-		 19.9	--> Criando o 5° Level do tiro
+		19.1	--> Importando a sprite														CHECK
+		19.2	--> Criando o objeto tiro_player_2											CHECK
+		19.3	--> Falar que esse tiro é filho do tiro 1									CHECK
+		19.4	-->	Ajustando os efeitos do tiro 2											CHECK
+		19.5	--> Criando dois tiros por vez, 1 em cada asa								CHECK
+		19.6	--> Fazer o tiro dar zigzag													CHECK
+		  19.6.1--> Fazendo o tiro ganhar uma direção										CHECK
+		  19.6.2--> Fazendo o tiro inverter a posição horizontal							CHECK
+		19.7	--> Criando o 3º Level do tiro												CHECK
+		  19.7.1--> Criando o tiro 1 e o tiro 2 ao mesmo tempo								CHECK
+		 19.8	--> Criando o 4° Level do tiro												CHECK
+		 19.9	--> Criando o 5° Level do tiro												CHECK
 		 
 20				--> Powerup
-		20.1	--> Criando o sprite do powerup
-		20.2	--> Criando o objeto do powerup
-		20.3	--> Criando a chance de cada powerup
-		20.4	--> Metodo do powerup
-		20.5	--> Fazer o item colidir com o player e dar o powerup para ele
-		20.6	--> Destruir o item ao colidir com o player
-		20.7	--> Quando for destruido ele cria o impacto_tiro
-		20.8	--> Fazendo o inimigo ter uma chance de dropar o upgrade
-		20.9	--> Fazendo o upgrade se mover
-		20.10.1	--> Fazer ele mudar de cor conforme o tipo do upgrade
-		20.11	--> Impedindo que o tiro saia da tela
-		20.12	--> Fazendo o powerup sumir
+		20.1	--> Criando o sprite do powerup												CHECK
+		20.2	--> Criando o objeto do powerup												CHECK
+		20.3	--> Criando a chance de cada powerup										CHECK
+		20.4	--> Metodo do powerup														CHECK
+		20.5	--> Fazer o item colidir com o player e dar o powerup para ele				CHECK
+		20.6	--> Destruir o item ao colidir com o player									CHECK
+		20.7	--> Quando for destruido ele cria o impacto_tiro							CHECK
+		20.8	--> Fazendo o inimigo ter uma chance de dropar o upgrade					CHECK
+		20.9	--> Fazendo o upgrade se mover												CHECK
+		20.10.1	--> Fazer ele mudar de cor conforme o tipo do upgrade						CHECK
+		20.11	--> Impedindo que o tiro saia da tela										CHECK
+		20.12	--> Fazendo o powerup sumir													CHECK
 		
 21				--> Escudo do player
-		21.1	--> Importando sprite
-		21.2	--> Criando objeto
-		21.3	--> Fazendo o player criar o escuto apertando E
+		21.1	--> Importando sprite														CHECK
+		21.2	--> Criando objeto															CHECK
+		21.3	--> Fazendo o player criar o escuto apertando E								CHECK
+		21.4	--> Criar uma layer para o escudo e ela tem q ficar em cima de geral		CHECK
+		21.5	--> Fazendo o escudo ficar na mesma posição que o player					CHECK
+		21.6	--> Destruindo os tiros														CHECK
+		21.7	--> Destruindo inimigos ao tocar no escudo									CHECK
+		21.8	--> Deixando o escudo maior													CHECK
+		21.9	--> Animando o escudo			
+			21.9.1 --> Parar animação no final dela
+			21.9.2 --> Depois de um tempo fazer o escudo acabar
+				21.9.2.1 --> Criar um alarme que no final da animação ele conta 2 seg
+				21.9.3.2 --> Ao executar o alarme ele deve voltar uma imagem
+		21.10	--> Melhorando o escudo no efeito
+		21.11	--> Dando o blend mode nele
 		
+	22			--> Ajustes gerais
+		22.1	--> Arrumando as mascaras de colisão
+		22.2	--> Dando colisão entre player e inimigo
 		
+	23			--> Fazendo o player Morrer / Sistema de vida
 		
