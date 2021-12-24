@@ -165,7 +165,20 @@
 		
 	22			--> Ajustes gerais
 		22.1	--> Arrumando as mascaras de colisão
-		22.2	--> Dando colisão entre player e inimigo
+		22.2	--> Dando colisão entre player e inimigo FEITO
 		
 	23			--> Fazendo o player Morrer / Sistema de vida
+		23.1	--> Fazendo o player ter vida
+		23.2	--> Criar metodo de vida
+		23.3	--> Fazer player morrer ao chegar em 0 de vida
+		23.4	--> Fazendo o player criar a explosão
+		23.5	--> Exibir vida player
+		23.6	--> Fazer o player perder vida ao tocar no inimigo
+		23.7	--> Criando uma tela de game over quando o jogador zerar a vida
+		
+		
+		
+		
+		
+		
 		

@@ -33,7 +33,6 @@ atirando();
 						//  DEBUG  //
 // Level dos tiros
 
-show_debug_message(level_tiro);
 
 // Fazer com que o level do tiro suba sempre que eu apertar a setinha para cima apenas se o 
 // Level do tiro for menor doq 5
@@ -58,7 +57,11 @@ if(setinha_direita){
 	espera_tiro *= 1.1;
 }
 
-show_debug_message(espera_tiro);
+
+
+// DEBUG DA VIDA
+
+show_debug_message(vida);
 
 // Criando o escudo
 

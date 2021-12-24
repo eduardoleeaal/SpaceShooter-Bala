@@ -7,6 +7,9 @@
 	Espera Tiro	-	10%		-	Limite: 11		- Comum			- 55%
 */
 
+//Sistema de vida
+vida = 3;
+//
 velocidade = 5;
 
 espera_tiro = room_speed * .7;
@@ -117,5 +120,16 @@ upgrade_p = function(_chance){
 		if(velocidade < 10){
 			velocidade += .5;
 		}
+	}
+}
+
+// Método para sistema de vida
+///@method perdervida();
+perdervida = function(){
+	if(vida > 0){
+		vida--;
+	}
+	else{
+		instance_destroy();
 	}
 }

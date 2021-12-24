@@ -6,9 +6,11 @@
 
 // Se o seu alvo for none se mata
 
-if(alvo == noone){
+if(alvo == noone or !instance_exists(alvo)){
 	instance_destroy();	
 }
+
+// Conferir se o alvo existe
 
 x = alvo.x;
 y = alvo.y;
