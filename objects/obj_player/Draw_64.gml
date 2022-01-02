@@ -20,3 +20,11 @@ repeat(vida){
 	draw_sprite_ext(spr_player, 0, 35 + espaco * controle, altura_hud - 40, .4, .4, 0, c_white, .3);
 	controle++;
 }
+
+var controle2 = 0;
+var espaco2 = 55;
+
+repeat(escudos){
+	draw_sprite_ext(spr_escudo, 2, 38 + espaco2 * controle2, altura_hud - 95, .35, .35, 0, c_white, .3);
+	controle2++;
+}

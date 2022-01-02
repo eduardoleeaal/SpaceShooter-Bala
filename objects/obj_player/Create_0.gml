@@ -12,6 +12,8 @@ vida = 3;
 //
 velocidade = 5;
 
+escudos = 3;
+
 espera_tiro = room_speed * .7;
 
 level_tiro = 1;

@@ -155,26 +155,42 @@
 		21.6	--> Destruindo os tiros														CHECK
 		21.7	--> Destruindo inimigos ao tocar no escudo									CHECK
 		21.8	--> Deixando o escudo maior													CHECK
-		21.9	--> Animando o escudo			
-			21.9.1 --> Parar animação no final dela
-			21.9.2 --> Depois de um tempo fazer o escudo acabar
-				21.9.2.1 --> Criar um alarme que no final da animação ele conta 2 seg
-				21.9.3.2 --> Ao executar o alarme ele deve voltar uma imagem
-		21.10	--> Melhorando o escudo no efeito
-		21.11	--> Dando o blend mode nele
+		21.9	--> Animando o escudo														CHECK
+			21.9.1 --> Parar animação no final dela											CHECK
+			21.9.2 --> Depois de um tempo fazer o escudo acabar								CHECK
+				21.9.2.1 --> Criar um alarme que no final da animação ele conta 2 seg		CHECK
+				21.9.3.2 --> Ao executar o alarme ele deve voltar uma imagem				CHECK
+		21.10	--> Melhorando o escudo no efeito											CHECK
+		21.11	--> Dando o blend mode nele													CHECK
+		21.12	--> Limitando a quantidade dos escudos										CHECK
+			21.12.1	--> Criando a variavel de quantidade de escudos							CHECK
+			21.12.2	--> Fazendo o player só criar escudo se ainda restar escudo				CHECK
+		21.12	--> Exibindo os escudos na tela												CHECK
 		
-	22			--> Ajustes gerais
+	22			--> Ajustes gerais							
 		22.1	--> Arrumando as mascaras de colisão
 		22.2	--> Dando colisão entre player e inimigo FEITO
 		
-	23			--> Fazendo o player Morrer / Sistema de vida
-		23.1	--> Fazendo o player ter vida
-		23.2	--> Criar metodo de vida
-		23.3	--> Fazer player morrer ao chegar em 0 de vida
-		23.4	--> Fazendo o player criar a explosão
-		23.5	--> Exibir vida player
-		23.6	--> Fazer o player perder vida ao tocar no inimigo
-		23.7	--> Criando uma tela de game over quando o jogador zerar a vida
+	23			--> Fazendo o player Morrer / Sistema de vida								CHECK
+		23.1	--> Fazendo o player ter vida												CHECK
+		23.2	--> Criar metodo de vida													CHECK
+		23.3	--> Fazer player morrer ao chegar em 0 de vida								CHECK
+		23.4	--> Fazendo o player criar a explosão										CHECK
+		23.5	--> Exibir vida player														CHECK
+		23.6	--> Fazer o player perder vida ao tocar no inimigo							CHECK
+		23.7	--> Criando uma tela de game over quando o jogador zerar a vida				CHECK
+			23.7.1	--> Criando a sequence game over										CHECK
+			23.7.2	--> Quando o player morrer criar sequence game over						CHECK
+				23.7.2.1	--> Checando se o player existe pelo obj control				CHECK
+				23.7.2.2	--> Se o player não existir eu crio a minha sequence			CHECK
+			23.7.3	--> Reinciando ao apertar ENTER											CHECK
+			
+	24			--> ScreenShake
+		24.1	--> Criar um obj para fazer o screenshake
+		24.2	--> Enfraquecendo o screenshake
+		24.3	--> Destruindo o screenshake depois de um tempo
+		24.4	--> Garantindo que ao destruir a viewport volte ao normal
+		24.5	--> Criando um screenshake sempre que eu acertar um tiro
 		
 		
 		

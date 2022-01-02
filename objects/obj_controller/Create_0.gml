@@ -15,7 +15,7 @@ level = 1;
 
 // Quantidade de pontos para o proximo level:
 
-proximo_level = 200;
+proximo_level = 10;
 
 // Criando um método para ganhar pontos
 /// @method ganha_pontos(pontos)
@@ -37,7 +37,9 @@ cria_inimigo = function(){
 
 		// Fazendo eles nascerem em lugares aleatorios
 	var posx = irandom_range(32, 1888);
-	var posy = irandom_range(-96, -1280);
+	
+		// Aumentando o limite com base no lvl do jogo
+	var posy = irandom_range(-96, -1280 - level * 800);
 
 
 		// Criando o inimigo com base no level
@@ -57,3 +59,7 @@ cria_inimigo = function(){
 
 	instance_create_layer(posx, posy, "inimigos", inimigo);
 }
+
+// Variavel de controle para o gameover
+
+gameover_seq = noone;

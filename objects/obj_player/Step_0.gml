@@ -68,10 +68,14 @@ show_debug_message(vida);
 
 
 if(use){
-	var escudo = instance_create_layer(x, y, "escudo", obj_escudo);
+	if(escudos > 0){
+		var escudo = instance_create_layer(x, y, "escudo", obj_escudo);
 	
-	//Eu sou o seu alvo
-	escudo.alvo = id;
+		//Eu sou o seu alvo
+		escudo.alvo = id;
+		
+		escudos--;
+	}
 }
 	
 

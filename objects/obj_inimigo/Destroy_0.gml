@@ -12,6 +12,9 @@ if (instance_exists(obj_controller)){
 }
 
 
+instance_create_layer(view_xport[0], view_yport[0], "Efeitos", obj_screenshake);
+
+
 // Dropando o item
 
 dropa_upgrade(chance);
