@@ -185,18 +185,18 @@
 				23.7.2.2	--> Se o player não existir eu crio a minha sequence			CHECK
 			23.7.3	--> Reinciando ao apertar ENTER											CHECK
 			
-	24			--> ScreenShake
-		24.1	--> Criar um obj para fazer o screenshake
-		24.2	--> Enfraquecendo o screenshake
-		24.3	--> Destruindo o screenshake depois de um tempo
-		24.4	--> Garantindo que ao destruir a viewport volte ao normal
-		24.5	--> Criando um screenshake sempre que eu acertar um tiro
-		24.6	--> Fazendo screenshake quando eu perco vida
+	24			--> ScreenShake																CHECK
+		24.1	--> Criar um obj para fazer o screenshake									CHECK
+		24.2	--> Enfraquecendo o screenshake												CHECK
+		24.3	--> Destruindo o screenshake depois de um tempo								CHECK
+		24.4	--> Garantindo que ao destruir a viewport volte ao normal					CHECK
+		24.5	--> Criando um screenshake sempre que eu acertar um tiro					CHECK
+		24.6	--> Fazendo screenshake quando eu perco vida								CHECK
 		
-	25			--> Ajustes Gerais
-		25.1	--> Randomizando o jogo
-		25.2	--> Impedindo o player de sair da room
-		25.3	--> Caso o player pegue um powerup de tiro apos lvl maximo ele ganha escudo
+	25			--> Ajustes Gerais				
+		25.1	--> Randomizando o jogo														CHECK
+		25.2	--> Impedindo o player de sair da room										CHECK
+		25.3	--> Caso o player pegue um powerup de tiro apos lvl maximo ele ganha escudo	CHECK
 		
 	26			--> BOSS
 		
