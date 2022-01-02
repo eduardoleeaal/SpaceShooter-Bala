@@ -11,8 +11,8 @@ if (instance_exists(obj_controller)){
 	obj_controller.ganha_pontos(pontos);
 }
 
-
-instance_create_layer(view_xport[0], view_yport[0], "Efeitos", obj_screenshake);
+// Criando shake
+scr_screenshakes(10);
 
 
 // Dropando o item

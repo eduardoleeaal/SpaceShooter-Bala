@@ -1,7 +1,7 @@
 /// @description Iniciando o tiro
 // You can write your code in this editor
 
-vspeed = -10;
+vspeed = -15;
 
 
 // AUMENTANDO O TAMANHO DO TIRO  //

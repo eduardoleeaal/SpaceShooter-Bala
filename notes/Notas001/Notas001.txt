@@ -191,6 +191,14 @@
 		24.3	--> Destruindo o screenshake depois de um tempo
 		24.4	--> Garantindo que ao destruir a viewport volte ao normal
 		24.5	--> Criando um screenshake sempre que eu acertar um tiro
+		24.6	--> Fazendo screenshake quando eu perco vida
+		
+	25			--> Ajustes Gerais
+		25.1	--> Randomizando o jogo
+		25.2	--> Impedindo o player de sair da room
+		25.3	--> Caso o player pegue um powerup de tiro apos lvl maximo ele ganha escudo
+		
+	26			--> BOSS
 		
 		
 		

@@ -111,6 +111,14 @@ upgrade_p = function(_chance){
 		if(level_tiro < 5){
 			level_tiro++;
 		}
+		else{
+			if (escudos = 3 && vida < 5){
+				vida++;
+			}
+				else{
+					escudos++;
+				}
+		}
 	}
 	else
 		if(_chance >= 55){
@@ -129,9 +137,13 @@ upgrade_p = function(_chance){
 ///@method perdervida();
 perdervida = function(){
 	if(vida > 0){
+		// TOMEI TIRO E NÃO MORRI
 		vida--;
+		scr_screenshakes(5);
 	}
 	else{
+		// TOMEI TIRO E MORRI
 		instance_destroy();
+		scr_screenshakes(150);
 	}
 }

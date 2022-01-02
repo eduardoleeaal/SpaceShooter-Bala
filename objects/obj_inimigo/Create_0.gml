@@ -1,8 +1,8 @@
 /// @description Iniciando o inimigo
 // You can write your code in this editor
 
-// Chance de dropar o item é : 15%
-chance = 15;
+// Chance de dropar o item é : 25%
+chance = 25;
 
 vspeed = 3;
 
@@ -33,7 +33,7 @@ dropa_upgrade = function(_chance){
 	var valor = random(100);
 	
 	// Se o valor for menor doq a chance ele cria o item
-	if(valor < _chance){
+	if(valor < _chance && y > 56){
 		// Criando o item
 		instance_create_layer(x, y, "Tiros", obj_powerup);
 	}

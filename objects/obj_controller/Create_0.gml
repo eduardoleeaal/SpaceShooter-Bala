@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Randomizando o jogo
+randomize();
+
 // Sistema de pontos:
 
 pontos = 0;
@@ -15,12 +18,12 @@ level = 1;
 
 // Quantidade de pontos para o proximo level:
 
-proximo_level = 10;
+proximo_level = 100;
 
 // Criando um método para ganhar pontos
 /// @method ganha_pontos(pontos)
 ganha_pontos = function(_pontos){
-	pontos += _pontos;
+	pontos += _pontos * level;
 	
 	// Ganhando Level SE os pontos forem > doq o proximo_level
 	
@@ -29,6 +32,23 @@ ganha_pontos = function(_pontos){
 	
 	// Dobrando o valor para o proximo level
 	proximo_level *= 2;
+	
+	/*
+	1	 = 0		- 10
+	2	 = 100		- 20
+	3	 = 200		- 30
+	4	 = 400		- 40
+	5	 = 800		- 50
+	6	 = 1600		- 60
+	7	 = 3200		- 70
+	8	 = 6400		- 80
+	9	 = 12800	- 90
+	10	 = 25600	- 100
+	
+	
+	*/
+	
+	
 	}
 }
 

@@ -25,8 +25,37 @@ use = keyboard_check_pressed(ord("E"));
 y += (down - up) * velocidade;
 x += (right - left) * velocidade;
 
+
+
+//Impedindo o player de sair da room
+
+/*
+if	(x <= 0060)	x = 0060;
+
+if	(x >= 1860)	x = 1860;
+
+if	(y >= 1024)	y = 1024;
+
+if	(y <= 0060)	y = 0060;
+*/
+
+// Função CLAMP para impedir o player de sair da room
+
+x = clamp(x, 60, 1860);
+y = clamp(y, 60, 1024);
+
+
 //Criando o tiro
 atirando();
+
+
+
+
+
+
+
+
+
 
 
 
