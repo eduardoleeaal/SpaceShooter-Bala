@@ -129,8 +129,8 @@
 		  19.6.2--> Fazendo o tiro inverter a posição horizontal							CHECK
 		19.7	--> Criando o 3º Level do tiro												CHECK
 		  19.7.1--> Criando o tiro 1 e o tiro 2 ao mesmo tempo								CHECK
-		 19.8	--> Criando o 4° Level do tiro												CHECK
-		 19.9	--> Criando o 5° Level do tiro												CHECK
+		19.8	--> Criando o 4° Level do tiro												CHECK
+		19.9	--> Criando o 5° Level do tiro												CHECK
 		 
 20				--> Powerup
 		20.1	--> Criando o sprite do powerup												CHECK
@@ -197,8 +197,50 @@
 		25.1	--> Randomizando o jogo														CHECK
 		25.2	--> Impedindo o player de sair da room										CHECK
 		25.3	--> Caso o player pegue um powerup de tiro apos lvl maximo ele ganha escudo	CHECK
+		25.4	--> Impedindo que o player crie mais de um escudo por vez
+			25.4.1	--> fazendo o player só criar o escudo se o meu escudo for noone
+		25.5	--> Impedindo que o player leve dano quando estiver usando escudo
+			25.6.1	--> Fazendo o escudo avisar o alvo dele que o escudo é noone
 		
 	26			--> BOSS
+		26.1	--> Importando as sprites do boss
+		26.2	--> Criando o obj_boss
+		26.3	--> Definindo estagios
+		26.4	--> Criando o 1º estagio do boss ( tiros parados)
+			26.4.1	--> Fazendo o boss criar o tiro 2 do meio/centro
+			26.4.2	--> Criando um intervalo entre os tiros
+		26.5	--> Fazer o boss dar tiros das asas ao mesmo tempo
+			26.5.1	--> Fazendo o boss ir para os lados
+		26.6	--> Estado 3 ----- Intercalar os tiros
+			26.6.1	--> Criando o tiro 2 do canhão a cada 1 sec
+			26.6.2	--> Criando o tiro 1 dos canhões menores
+			26.6.3	--> Criando o tiro 1 e tiro 2 em tempos diferentes
+		26.7	--> Iniciando a variavel de vida
+			26.7.1	--> Mostrando a vida do boss
+			26.7.2	--> Fazendo o boss levar tiro
+		26.8	--> Criando o 4º estado do boss
+			26.8.1	--> Importando spr ivulneravel
+			26.8.2	--> Iniciando o 4º Estado || Fazendo com que o boss tenha spr escura no 4º estado
+			26.8.3	--> Fazendo o boss não tomar dano no estado 4
+			26.8.4	--> Fazer o box ter a sprite original nos demais estados
+			26.8.5	--> Criando o objeto do minion
+			26.8.6	--> Criando o tiro do minion do boss
+			26.8.7	--> Fazendo o minion atirar
+			26.8.8	--> Fazer o tiro do minion recuperar 5 de vida do boss
+			26.8.9	--> Fazer os minios começarem transparentes e depois ficar visivel
+			26.8.10	--> Fazendo os minions tomarem tiro tomando 1 de dano por tiro
+			26.8.11	--> Dando 10 de vida para eles
+			26.8.12	--> Fazendo o minion morrer
+			26.8.13	--> Criando a explosão ao morrer
+			26.8.14	--> Melhorando o feedback para o player
+			26.8.15	--> Alterando os efeitos do minion
+		
+		Varios estágios do boss
+		Fase invulnerável com recuperação de vida
+		(Fase cria minions agressivos)
+	
+	
+	27			--> Animação da chegada do boss
 		
 		
 		

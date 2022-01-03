@@ -14,6 +14,8 @@ velocidade = 5;
 
 escudos = 3;
 
+meu_escudo = noone;
+
 espera_tiro = room_speed * .7;
 
 level_tiro = 1;
@@ -136,14 +138,40 @@ upgrade_p = function(_chance){
 // Método para sistema de vida
 ///@method perdervida();
 perdervida = function(){
-	if(vida > 0){
-		// TOMEI TIRO E NÃO MORRI
-		vida--;
-		scr_screenshakes(5);
+	
+	if(!meu_escudo){
+		if(vida > 0){
+			// TOMEI TIRO E NÃO MORRI
+			vida--;
+			scr_screenshakes(5);
+		}
+		else{
+			// TOMEI TIRO E MORRI
+			instance_destroy();
+			scr_screenshakes(150);
+		}
 	}
-	else{
-		// TOMEI TIRO E MORRI
-		instance_destroy();
-		scr_screenshakes(150);
+}
+
+// Metodo para escudos
+
+criar_escudos = function(){
+	var use;
+	
+	use = keyboard_check_pressed(ord("E"));
+	
+	if(use && escudos > 0 && !meu_escudo ){
+	
+		var escudo = instance_create_layer(x, y, "escudo", obj_escudo);
+	
+		//Eu sou o seu alvo
+		escudo.alvo = id;
+
+		//Avisando que o escudo é o meu escudo
+		meu_escudo = escudo;
+
+
+		escudos--;
+	
 	}
 }
