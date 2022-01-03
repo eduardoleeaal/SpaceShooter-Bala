@@ -21,7 +21,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_minion","path":"objects/obj_minion/obj_minion.yy",},"order":1,},
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"order":1,},
-    {"id":{"name":"scr_screenshakes","path":"scripts/scr_screenshakes/scr_screenshakes.yy",},"order":0,},
+    {"id":{"name":"Scripts","path":"scripts/Scripts/Scripts.yy",},"order":0,},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":4,},
     {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},"order":1,},
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},"order":7,},

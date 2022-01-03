@@ -38,8 +38,8 @@ vida_atual = vida_max;
 
 //====================================================================================//
 
-//estado_atual = choose("estado 3", "estado 1", "estado 2");
-estado_atual = "estado 2";
+estado_atual = choose("estado 3", "estado 1", "estado 2");
+
 
 
 // VARIAVEIS BOSS
