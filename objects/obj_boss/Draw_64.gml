@@ -8,4 +8,4 @@
 
 var _vida = (vida_atual / vida_max) * 100;
 
-draw_healthbar(100 , 20, 860, 35, _vida, c_black, c_red, c_lime, 0, false, false);
+draw_healthbar(100 , 20, 1180, 35, _vida, c_black, c_red, c_lime, 0, false, false);

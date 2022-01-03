@@ -11,16 +11,7 @@ if(estado_atual != "estado 4"){
 
 ////////////////////////////////////////////////////////
 //Alternando os estados do boss
-//Diminuindo a espera
-espera_estado--;
-
-if(espera_estado <= 0){
-	//Escolher um estado	
-	estado_atual = choose("estado 1", "estado 2", "estado 3");
-	
-	//Fazendo o espera_estado ter um valor alto dnv
-	espera_estado = delay_estado;
-}
+troca_estados();
 ////////////////////////////////////////////////////////
 
 // Iniciando o estado 1
@@ -42,7 +33,7 @@ if(estado_atual == "estado 1"){
 					else
 						if(estado_atual == "estado 4"){
 							//Codigo estado 4	
-							sprite_index = spr_boss_ivulne;
+							estado04();
 						}
 						
 						

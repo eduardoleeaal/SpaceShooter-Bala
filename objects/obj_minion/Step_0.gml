@@ -11,3 +11,4 @@ if(image_alpha < 1){
 if(vida_minion <= 0){
 	instance_destroy();
 }
+

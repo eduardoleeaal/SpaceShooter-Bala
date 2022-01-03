@@ -34,12 +34,17 @@ vida_atual = vida_max;
 //====================================================================================//
 
 
-// estado_atual = choose("estado 3", "estado 1", "estado 2");
 
-estado_atual = "estado 4";
+
+//====================================================================================//
+
+//estado_atual = choose("estado 3", "estado 1", "estado 2");
+estado_atual = "estado 2";
+
 
 // VARIAVEIS BOSS
 velocidade_horizontal = 20;
+controle_minion = false;
 
 //ESTADOS BOSS
 delay_estado = room_speed * 10; // 10 Segundos
@@ -117,3 +122,49 @@ estado03 = function(){
 }
 
 //====================================================================================//
+
+// Metodo estado 04
+
+estado04 = function(){
+	//Codigo estado 4	
+	
+	//Fazendo o boss ir para o meio da tela
+	x += sign(room_width / 2 - x);
+	
+							sprite_index = spr_boss_ivulne;
+							
+							//Criando os minions 
+							if(controle_minion == false){
+								//Esquerda
+								var _minion = instance_create_layer(128, 512, "BOSS", obj_minion);
+								_minion.image_angle =  90;
+								//Direita
+								_minion = instance_create_layer(1824,512,"BOSS", obj_minion);
+								_minion.image_angle = 270;
+							
+								controle_minion = true;
+							}
+}
+
+//====================================================================================//
+
+// Metodo troca de estados
+
+troca_estados = function(){
+	espera_estado--;
+
+	if(espera_estado <= 0){
+		//Escolher um estado	SE minha vida for maior que a metate
+		if(vida_atual > vida_max / 2){
+			estado_atual = choose("estado 1", "estado 2", "estado 3");
+		}
+			else if(vida_atual <= vida_max / 2){
+				estado_atual = choose("estado 1", "estado 2", "estado 3", "estado 4");
+		}
+		//Reiniciando criação de minions
+		controle_minion = false;
+	
+		//Fazendo o espera_estado ter um valor alto dnv
+		espera_estado = delay_estado;
+	}
+}
