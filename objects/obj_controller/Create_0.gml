@@ -8,6 +8,11 @@ randomize();
 
 pontos = 0;
 
+
+
+
+
+
 // CONTROLE DO BOSS:
 criar_boss = true;
 
@@ -23,7 +28,7 @@ level = 1;
 
 // Quantidade de pontos para o proximo level:
 
-proximo_level = 100;
+proximo_level = 10;
 
 // Criando um método para ganhar pontos
 /// @method ganha_pontos(pontos)

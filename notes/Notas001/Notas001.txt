@@ -268,6 +268,36 @@
 			29.2.1	--> Criar a função que executa
 		29.3	--> Garantir que não dê gameOver
 		
+	30			--> Criar o menu do jogo
+		30.1	--> Criar a room da tela inicial
+		30.2	--> Criar os botões
+			30.2.1	--> Fazer o botão mudar de cor se o mouse estiver em cima dele
+			30.2.2	--> Fazer o botão voltar a cor original quando o mouse sair de cima
+			30.2.3	--> Desenhar texto no botão
+			30.2.4	--> Desenhando a fonte centralizada
+			30.2.5	--> Permitir que o texto seja personalizado
+			
+	31			--> Criar a transição
+		31.1	--> Criar o obj transicao
+		31.2	--> FAzendo ele escurecer a tela
+			31.2.1	--> Fazendo ele desenhar transparente depois ficar escuro
+			32.2.2	--> Se o alpha for menor do que 1 então o alpha aumenta
+		31.3	--> Fazendo ele mudar de room depois que a tela esta totalmente escura
+		31.4	--> FAzendo ele deixar a tela clara ao trocar de room
+			31.4	--> Avisando que troquei de room
+			31.5	--> Se eu troquei de room e o alpha for menor que 0 eu me mato
+		32.6	--> Personalizando o destino
+			
+			
+	32			--> Criar a tela de pontuação
+		32.1	--> Criando um sistema de pontos que guarda as pontuações
+			32.1.1	--> Criando uma room para inicializar todas variaveis globais
+			32.1.2	--> Iniciando as variaveis
+		32.2	--> Debug para ver as variaveis globais
+		32.3	--> Salvando os pontos na variavel global de max pontos se a pontuação for maior que a antiga MAX
+			32.3.1	--> Quando a partida acabar chegar se os pontos são maior que o max pontos, se sim passar o max pontos
+		32.4	--> Sempre que um inimigo morrer aumentar a variavel de inimigos mortos
+		32.5	--> sempre que eu morrer aumentar a variavel de mortes
 		
 		
 		

@@ -18,3 +18,9 @@ scr_screenshakes(10);
 // Dropando o item
 
 dropa_upgrade(chance);
+
+
+
+// Aumentando a variavel de inimigos mortos quando um inimigo morre
+
+global.total_inimigos++;
