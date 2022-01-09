@@ -1,5 +1,6 @@
 // COdigo que roda sempre que a room é iniciada
 // Iniciar variaveis globais
+randomize();
 
 // Pontuação mais alta
 global.max_pontos = 0;

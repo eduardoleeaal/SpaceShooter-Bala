@@ -6,3 +6,6 @@
 //Avisando para o player que o escudo dele não existe mais
 
 alvo.meu_escudo = noone;
+
+
+audio_play_sound(sfx_shieldDown, 1, 0);

@@ -35,6 +35,10 @@ atirando = function(){
 		// Atirar a cada 1 seg
 		// Meu codigo de tirinho
 		
+		// Som do tiro
+
+		audio_play_sound(sfx_laser2, 1, false);
+		
 		// Criar uma condição para atirar dependendo do tiro
 		
 		// Tiro do lvl 1
@@ -47,12 +51,12 @@ atirando = function(){
 		}
 		else // Tiro lvl 3
 			if(level_tiro == 3){
-				instance_create_layer(x, y_tiro, "Tiros", obj_tiro_player);
-				tiro2();
+				tiro4();
 		}
 		else // Tiro lvl 4
 			if(level_tiro == 4){
-				tiro4();
+				instance_create_layer(x, y_tiro, "Tiros", obj_tiro_player);
+				tiro2();
 		}
 		else
 			if(level_tiro == 5){

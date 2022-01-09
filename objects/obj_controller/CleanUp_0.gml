@@ -8,3 +8,7 @@
 if (pontos > global.max_pontos){
 	global.max_pontos = pontos;
 }
+
+// Parando os sons quando eu saio do level
+
+audio_stop_all();

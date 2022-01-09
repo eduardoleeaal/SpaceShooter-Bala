@@ -40,9 +40,9 @@ if(estado_atual == "estado 1"){
 						
 						
 					// DEBUGS
-
+/*
 // debug estado atual
-show_debug_message(estado_atual);
+//show_debug_message(estado_atual);
 
 // DEBUG VIDA BOSS
 // se eu apertar enter a vida abaixa em 10
@@ -52,3 +52,4 @@ if (keyboard_check(vk_enter)){
 	
 }
 show_debug_message(vida_atual);
+*/

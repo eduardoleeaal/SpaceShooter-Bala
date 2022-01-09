@@ -16,6 +16,9 @@ atirando = function(){
 	// Faz com que o inimigo só atire após entrar na tela
 	if (y >= 0){
 		instance_create_layer(x - 3, y + sprite_height/2, "Tiros", obj_tiro_inimigo2);
+		// Som do tiro
+		audio_play_sound(sfx_laser1, 1, 0);
+
 	}
 }
 

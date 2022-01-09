@@ -7,4 +7,6 @@ if((!instance_exists(obj_player)) && (gameover_seq == noone) && (!level_completo
 	
 	//criando apenas uma sequence
 	gameover_seq = layer_sequence_create("sequences", room_width * .5, room_height * .5, sq_gameover);
+	//Colocando o som
+	audio_play_sound(sfx_lose, 1, 0);
 }

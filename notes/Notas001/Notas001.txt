@@ -304,11 +304,33 @@
 		32.7	--> Garantir que o obj_controller vai atualizar os pontos
 		32.8	--> Exibindo as informações na tela de Pontuação
 		32.9	--> Criando um botão para voltar
-		33.10	--> Criando uma fonte só para os pontos
+		32.10	--> Criando uma fonte só para os pontos
+		32.11	--> Fazendo na hora de exibição começar com 0 e crescer até a maior pontuação
 		
+	33			--> Ajustes Gerais (novamente)
+		33.1	--> Garantindo que o jogo é aleatorio.
+		33.2	--> Ajustando o nome do jogo
 		
-		
-		
+	34			--> Criando os sons do jogo
+		34.1	--> Importando os sons
+		34.2	--> Criando o som de explosão quando a explosão for criada
+		34.3	--> Criando o som de tiro quando o player atirar
+		34.4	--> Criando o som de tiro quando o inimigo atirar
+		34.5	--> Criando o som de tiro sempre que o boss atirar
+		34.6	--> Criando o som do escudo do tiro nascendo
+		34.7	--> Criando o som do escudo quando o tiro sumir
+		34.8	--> Criando o som da tela gameover
+		34.9	--> Criando o som quando o tiro bater no escudo do player
+		34.10	--> Tocando a musica do jogo quando o level iniciar
+			34.10.1	--> Parando de tocar as musicas quando eu sair do level
+		34.11	--> Tocando a musica do boss fight
+			34.11.1	--> Parando a musica do level
+			34.11.2	--> Tocando a boss fight
+			
+	35			--> Polindo o jogo
+		35.1	--> Tirando os debugs do jogo
+		35.2	--> Ajustando a exibição dos pontos
+	
 		
 		
 		

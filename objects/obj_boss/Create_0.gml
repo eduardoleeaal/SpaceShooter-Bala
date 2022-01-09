@@ -17,23 +17,32 @@ Estadio especial 1 = ficar parado com minions recuperando vida dele
 
 tiro01_esquerda = function(){
 	instance_create_layer(x - 161, y + 14, "Tiros" , obj_tiro_inimigo);
+	// Som do tiro
+	audio_play_sound(sfx_laser1, 1, 0);
+
 }
 tiro01_direita = function(){
 	instance_create_layer(x + 161, y + 14, "Tiros" , obj_tiro_inimigo);
+	// Som do tiro
+	audio_play_sound(sfx_laser1, 1, 0);
 }
 tiro02 = function(){
 	instance_create_layer(x, y + 80, "Tiros", obj_tiro_inimigo2);
+	// Som do tiro
+	audio_play_sound(sfx_laser1, 1, 0);
 }
 
 //====================================================================================//
 
 // Iniciando o sistema de vida
-vida_max = 1000;
+vida_max = 1500;
 vida_atual = vida_max;
 
 //====================================================================================//
 
+// Tocando a musica do boss
 
+audio_play_sound(snd_boss, 0, 1);
 
 
 //====================================================================================//

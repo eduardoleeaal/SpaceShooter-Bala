@@ -19,9 +19,13 @@ if(!instance_exists(obj_inimigo)){
 				layer_sequence_create("BOSS_ENTRANDO", 992, 576, sq_boss_entrada);
 				// garantindo que ele não nasça duas vezes
 				criar_boss = false;
+				
+				
+				// Parando de tocar a musica
+				audio_stop_all();
 			}
 	
-	show_debug_message("Mudou de onda");
+
 }
 
 alarm[0] = room_speed * 5;

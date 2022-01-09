@@ -10,5 +10,6 @@ image_yscale = lerp(image_yscale, 1, 0.3);
 
 if(place_meeting(x, y, obj_escudo)){
 	instance_destroy();	
+	audio_play_sound(sfx_twoTone, 0, 0);
 	
 }
