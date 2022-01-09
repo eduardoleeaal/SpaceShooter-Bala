@@ -10,9 +10,6 @@ if(gameover_seq){
 	
 	// fazendo o max pontos
 
-if (pontos > global.max_pontos){
-	global.max_pontos = pontos;
-	}
 
 	
 	

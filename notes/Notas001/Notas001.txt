@@ -267,6 +267,8 @@
 		29.2	--> Quando o boss morrer e a animação dele acabar criar a animação do player
 			29.2.1	--> Criar a função que executa
 		29.3	--> Garantir que não dê gameOver
+		29.4	--> Fazendo ele criar uma transição para tela inicial
+			29.4.1	--> Criando função pra transição
 		
 	30			--> Criar o menu do jogo
 		30.1	--> Criar a room da tela inicial
@@ -298,6 +300,11 @@
 			32.3.1	--> Quando a partida acabar chegar se os pontos são maior que o max pontos, se sim passar o max pontos
 		32.4	--> Sempre que um inimigo morrer aumentar a variavel de inimigos mortos
 		32.5	--> sempre que eu morrer aumentar a variavel de mortes
+		32.6	--> Ganhando ponto sempre que matar o boss
+		32.7	--> Garantir que o obj_controller vai atualizar os pontos
+		32.8	--> Exibindo as informações na tela de Pontuação
+		32.9	--> Criando um botão para voltar
+		33.10	--> Criando uma fonte só para os pontos
 		
 		
 		

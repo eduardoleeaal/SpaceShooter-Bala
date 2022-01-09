@@ -7,9 +7,7 @@ instance_create_layer(x, y, "Inimigos", obj_explosao);
 
 
 // Rodando o método de pontuação APENAS SE o obj_controller existir
-if (instance_exists(obj_controller)){
-	obj_controller.ganha_pontos(pontos);
-}
+scr_ganhapontos(pontos)
 
 // Criando shake
 scr_screenshakes(10);

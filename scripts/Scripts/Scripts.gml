@@ -29,3 +29,14 @@ function scr_cria_seq(){
 	}
 
 }
+
+function scr_ganhapontos(_pontos){
+	if (instance_exists(obj_controller)){
+		obj_controller.ganha_pontos(_pontos);
+	}
+}
+
+function scr_transicao(){
+	var _transicao = instance_create_layer(0,0, "player", obj_transicao);
+	_transicao.destino = rm_menu;
+}
