@@ -69,7 +69,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "sq_final_game_player",
   "tags": [],
   "resourceType": "GMSequence",

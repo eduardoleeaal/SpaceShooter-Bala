@@ -6,7 +6,7 @@ randomize();
 
 // Sistema de pontos:
 
-pontos = 0;
+pontos = 5000;
 
 
 
@@ -28,7 +28,7 @@ level = 1;
 
 // Quantidade de pontos para o proximo level:
 
-proximo_level = 100;
+proximo_level = 1;
 
 // Criando um método para ganhar pontos
 /// @method ganha_pontos(pontos)

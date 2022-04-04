@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boss_ivulne","path":"sprites/spr_boss_ivulne/spr_boss_ivulne.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boss_ivulne",
     "tags": [],
     "resourceType": "GMSequence",

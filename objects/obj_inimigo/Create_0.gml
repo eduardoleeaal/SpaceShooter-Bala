@@ -24,7 +24,7 @@ if(place_meeting(x, y, obj_inimigo)){
 	instance_destroy(id, false);	
 }
 
-pontos = 10;
+pontos = 50;
 // Iniciando o alarme em 2 seg
 alarm[0] = room_speed * random_range(1, 3);
 

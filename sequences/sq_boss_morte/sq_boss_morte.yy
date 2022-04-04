@@ -508,7 +508,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "sq_boss_morte",
   "tags": [],
   "resourceType": "GMSequence",

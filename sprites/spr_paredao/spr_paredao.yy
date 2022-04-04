@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_paredao","path":"sprites/spr_paredao/spr_paredao.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_paredao",
     "tags": [],
     "resourceType": "GMSequence",

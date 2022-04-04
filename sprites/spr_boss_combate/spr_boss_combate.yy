@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boss_combate","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boss_combate",
     "tags": [],
     "resourceType": "GMSequence",

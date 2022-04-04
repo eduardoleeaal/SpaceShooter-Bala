@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_botao",
     "tags": [],
     "resourceType": "GMSequence",

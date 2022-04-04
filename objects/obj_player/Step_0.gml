@@ -64,7 +64,7 @@ criar_escudos();
 
 
 						//  DEBUG  //
-/*
+
 // Level dos tiros
 
 
@@ -91,7 +91,7 @@ if(setinha_direita){
 	espera_tiro *= 1.1;
 }
 
-*/
+
 ///////////////////////////////////
 // DEBUG DA VIDA
 
